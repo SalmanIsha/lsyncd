@@ -30,3 +30,10 @@ sync{
 	}  
 ```  
 
+### Start and enable lsyncd service
+
+`# systemctl start lsyncd`  
+`# systemctl enable lsyncd`  
+
+##### Note:If any change done in the lsyncd.conf file lsyncd service need a restart.
+
